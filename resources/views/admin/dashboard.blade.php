@@ -183,7 +183,7 @@
                         </div>
                         <div class="table-area">
                             <div>
-                                <table id="pending_withdrwall" class="table-responsive table table-borderless custom-table display text-left"
+                                <table id="pending_withdrawal" class="table-responsive table table-borderless custom-table display text-left"
                                        width="100%">
                                     <thead>
                                     <tr>
@@ -421,7 +421,7 @@
     </script>
 
     <script>
-        $('#pending_withdrwall').DataTable({
+        $('#pending_withdrawal').DataTable({
             processing: true,
             serverSide: true,
             pageLength: 25,
